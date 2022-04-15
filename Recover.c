@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     int abul, babul, age;
-    scanf("%d %d", &abul, &babul);
-    age = (abul + babul) /2;
-    printf("%d", age);
+    scanf("%d %d", &abul, &age);
+    babul = (2* age) - abul;
+    printf("%d", babul);
     return 0;
 }
